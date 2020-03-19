@@ -1,7 +1,6 @@
 package loose.oose.fis;
 
 import loose.oose.fis.documents.Document;
-import loose.oose.fis.documents.JSON;
 import loose.oose.fis.documents.XML;
 import loose.oose.fis.processors.Procesor;
 import loose.oose.fis.processors.ProcesorCautare;
@@ -39,5 +38,6 @@ public class Main {
         pc2.adaugaProcesor(c3);
 
         System.out.println(pc2.proceseaza(documente));
+        System.out.println("Modified ..... 2");
     }
 }
